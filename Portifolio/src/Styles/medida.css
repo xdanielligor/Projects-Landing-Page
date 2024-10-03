@@ -1,0 +1,70 @@
+@media screen and (max-width:780px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+   
+
+   header{
+       display: flex;
+       flex-direction: row;
+   }
+   li{
+    display: none;
+   }
+
+#btn_mobile{
+    display: block;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    background: transparent;
+    color: rgb(159, 51, 221);
+    cursor: pointer;
+
+}
+
+
+.btn-menu{
+    display: block;
+}
+.serviços{
+    display: none;
+}
+
+   /*------DIVIDINDO SESSÃES------*/
+   .separacao{
+       display: flex;
+        flex-direction: column;
+       align-items: center;
+       margin-top: 200px;
+       margin-left: 70px;
+   }
+        
+   /*------SESSÃO 1 IMAGEM------*/
+   .caixa {
+       position: relative;
+       bottom: 150px;
+       right: 40px;
+       width: 400px;
+       height: 400px;
+   }
+
+   .content{
+       margin-left:150px;
+       width: 380px;
+       font-size: 15px;
+       position: relative;
+       right: 110px;
+       bottom: 120px;
+   }
+   
+   .social-links {
+    position: relative;
+    left: 90px;
+    align-items: center;
+   }
+   .social-links i{
+       font-size: 15px;
+   }
+
+}
